@@ -1,0 +1,4 @@
+"signal_id","observed_date","theme","product_ids","summary","source_type","source_ref","verified"
+"S01","2026-10-15","Food-led travel","P03;P07","Fictional editorial signal: interest in market visits and regional cuisine","Synthetic blog","SYNTHETIC: not a real article","false"
+"S02","2026-10-16","Slow travel","P05;P02","Fictional editorial signal: interest in slower rail itineraries","Synthetic news","SYNTHETIC: not a real article","false"
+"S03","2026-10-17","Small-group positioning","P01;P06","Fictional competitor promotes guided cultural itineraries","Synthetic competitor","SYNTHETIC: not a real competitor claim","false"

@@ -1,0 +1,3 @@
+"campaign_id","name","start_date","end_date","priority","product_ids","offer","audience","terms"
+"C01","November Adventure Sale","2026-11-23","2026-11-30","1","P01;P03;P06","15% off base trip price","All opted-in travel prospects","Selected listed departures only; subject to availability; no stacking; excludes flights"
+"C02","Sri Lanka launch","2026-11-09","2026-11-15","2","P05","New itinerary; no discount","Slow travellers","Bookings open 9 November; first departure 20 February 2027"
