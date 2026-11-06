@@ -50,4 +50,12 @@ Implementation: campaign_assets.py, asset_previews.py, campaign_layer.py.
 
 ## Maintaining this reference
 
+The default landing page is About the platform, separate from the engine at /engine. It explains the platform purpose, four-step workflow, prototype capabilities and current limitations without inventing team credentials or integrations. Show the full introductory graphic on About only. Top navigation and clear entry links connect the informational page to the engine.
+
+Navigation uses four compact buttons with numbered circles (1–4), icons, one label per step and a highlighted current step. Step 4 is labelled Creative. Keep the steps in one row with horizontal scrolling on narrow screens. Show the full explanatory hero on the landing view. Navigation changes do not imply completion or approval.
+
+Proposal dialogs present audience, objective, market and schedule as a compact brief, with reasoning separate from customer-facing copy. An approved, current proposal can open its matching design in Creative using Go to design. Do not edit creative inside the proposal dialog. Proposal approval and content approval remain separate. Version history explains previous saves; removal is a separately labelled, confirmed action that retains history.
+
+New creative templates include a separate email headline and structured cards for the proposal's selected products only. Do not add unrelated products or invent claims, prices, inventory or performance evidence. Existing saved creative is not silently rewritten. Copy and design currently use templates, not AI synthesis of all company data. Label image links and button destinations in plain language.
+
 For a change to a section, update its inputs, decision rule, output, failure behavior and approval effects here. Mark proposed integrations as future work until they operate through the app. Add a regression check when an incorrect claim, lost edit, or stale approval could recur. Use dated build notes for history and this document for current rules.
