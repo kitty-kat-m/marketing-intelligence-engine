@@ -48,6 +48,21 @@ Draft edits clear content approval. Assets reference a specific proposal version
 
 Implementation: campaign_assets.py, asset_previews.py, campaign_layer.py.
 
+
+## Product direction for listening and learning
+
+These design rules guide future work across the existing four screens. Today the engine accepts source notes, supports proposal and creative review, and exports approved work. Automated listening, channel delivery and post-campaign measurement are future capabilities.
+
+1. **Listen in Intelligence.** Capture a dated observation in the audience's own words, where it appeared, its source and the audience or product it concerns. Start with manual entries from reviews, forums, sales enquiries or owned communities. Keyword alerts and social monitoring can later supply the same fields.
+2. **Understand in Direction and Plan.** Link a proposed action to the observation and a business fact. Record the marketer's interpretation, uncertainty and a testable prediction. Group recurring pain points and competitor observations. Any future research summary must preserve links to its evidence. A reviewer can decide to keep listening.
+3. **Make in Creative.** Agree the audience, message, offer and measure of success before automating production. Choose email, social, video or voice according to the question being tested and the channel the audience uses.
+4. **Ship with a human decision.** Record the intended destination and accountable person. Require human approval of the final version before external delivery. For future delivery integrations, record actual publication time and URL or send receipt. Include owned communities and content discoverable through search when relevant. Treat AI search visibility as an outcome to investigate.
+5. **Learn back in Intelligence.** Link results to the signal, proposal version, audience and channel. Record a baseline or comparison, metric definition, observation window, result and follow-up decision. Capture inconclusive tests. Distinguish observed performance from evidence that the campaign caused it. Turn the next unanswered question into a listening prompt.
+
+**Operating rules.** Run a complete test manually before automating it. Track completed experiments, what was learned and which decision changed. Review channel reach, frequency and response before increasing volume or testing another channel. Keep source records exportable and accept manual input when a provider fails. Give each integration an owner, a maintenance budget and a review date. Monitor failures and changes in output quality, including prompt drift. Retire integrations whose evidence no longer justifies their upkeep.
+
+**First prototype milestone.** Demonstrate one traceable cycle using a manually recorded customer question, a proposal with a prediction, human-approved creative, a recorded delivery and an observed result that informs the next question. Use clearly labelled fictional results in demos.
+
 ## Maintaining this reference
 
 The default landing page is About the platform, separate from the engine at /engine. It explains the platform purpose, four-step workflow, prototype capabilities and current limitations without inventing team credentials or integrations. Show the full introductory graphic on About only. Top navigation and clear entry links connect the informational page to the engine.
